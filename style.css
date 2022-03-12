@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+  }
+
+
+  .QRbox {
+    width: 300px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+  }
+
+  .QRbox img {
+    width: 270px;
+    height: 267px;
+    border-radius: 15px;
+    margin-top: 5px;
+  }
+
+  .QRbox p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .QRbox h1{
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .attribution { 
+    position: relative;
+    margin-top: 20px;
+    font-size: 15px; 
+    text-align: center; 
+
+    } 
+  .attribution a 
+  { color: hsl(228, 45%, 44%); }
